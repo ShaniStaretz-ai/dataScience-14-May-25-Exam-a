@@ -1,0 +1,22 @@
+Question 3:
+
+1.df.dropna
+	b. Removes rows that contain missing values (NaN)
+2.df['city'].unique()
+	d. Removes duplicate values from the 'city' column
+3. df['gender'].replace({'M': 'Male', 'F': 'Female'})
+	b. Replaces the values of the gender column according to the conversion map
+4. df.sample(5)
+	c. Selects 5 random rows from the table
+5. df['score'].fillna(0)
+	c. Fills the missing values in the score column with zeros
+6. df.drop_duplicates
+	c. Removes duplicate rows in the table
+7. df['price'].nlargest(3)
+	d. Returns the 3 largest values in the price column
+8. df['city'].value_counts()
+	b. Returns the number of occurrences of each value in the column
+9. df['quantity'] > 100
+	c. Creates a Boolean series of True/False according to the condition
+10. df.groupby('category').mean()
+	a. Divides the table by category and calculates the average for numeric columns
